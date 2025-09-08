@@ -58,6 +58,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Content: 
+  Elke button heeft een beschrijving, maar niet elke beschrijving (class) is duidelijk
+
+  Global code: 
+  Semantisch klopt de site niet 
+  Allen op telefoon kan je in- of uitzoomen 
+
+  Mobile and touch: 
+  Op telefoon kan de website geroteerd worden, maar de afbeeldingen worden dan heel groot 
+
+  Headings:
+  Headings zijn er, maar niet logisch 
+  Er zitten headings in afbeeldingen? (heel frapant)
+
+  Lists:
+  Gebruiken geen list elementen 
+
+  Images:
+  Niet alles img elements hebben een alt 
+
+  Media (video and Audio):
+  Maken geen gebruik van videos 
+
+  Controls:
+  Gebruiken wel een a-tag voor links 
+  Er is geen :Focus states 
+
+
 </details>
 
 
