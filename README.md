@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home 
-  <img src="/readme-images/Screenshot-FED.png" width="375px" alt="omschrijving van de pagina">
+  <img src="/readme-images/Homepagina.png" width="375px" alt="De Homepagina van Burberry">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Men's new arrival 
-  <img src="/readme-images/Men&apos;s-new-arrival.png" width="375px" alt="omschrijving van de pagina">
+  <img src="/readme-images/Men’s New Arrivals _ Burberry®️ Official.png" width="375px" alt="De pagina van nieuwe mannen producten van Burberry ">
  
 </details>
 
