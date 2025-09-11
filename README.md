@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Controls:
   Gebruiken wel een a-tag voor links 
-  Er is geen :Focus states 
+  Er is geen :Focus states
 
 
 </details>
@@ -96,7 +96,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/readme-images/Breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">

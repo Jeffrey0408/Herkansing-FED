@@ -29,3 +29,14 @@
 
 /* jouw code */
 
+body {
+	background-color: var(--color-background);
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
