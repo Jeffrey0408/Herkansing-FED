@@ -17,10 +17,25 @@
     src: url(/Fonts/oracle-book-medium\ \(1\).woff2);
 }
 
+header {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
 header a {
     color: black;
     text-decoration: none;
+    margin-right: 5rem;
 }
+
+header img{
+    width: 10%;
+}
+    
 
 h1 {
     font-family: burberry-house;
@@ -40,8 +55,109 @@ h3 {
 p {
     font-family: oracle-book;
     font-weight: normal;
+    margin: 1em;
 }
 
+nav {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: var(--color-background);
+	translate: 150% 0%;
+	transition:translate .3s;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+}
+
+nav button {
+	position: absolute;
+	right: 0.5rem;
+	top: 1.5rem;
+	border-style: none;
+	width: 10%;
+	background-color: var(--color-background);
+}
+
+nav img {
+	width: 100%;
+}
+
+/*nals menu open is */ 
+nav.toonMenu {
+	translate: 0% 0%;
+}
+
+nav > ul > li > a {
+	display: block;
+	text-decoration: none;
+	color: #111;
+	font-size: 20px;
+	margin: 0.5rem;
+}
+
+nav > ul {
+	margin-left: 0.5rem;
+	list-style-type: none;
+}
+
+header > button {
+	background-color: white;
+	width: 10%;
+	border-style: none;
+	position: absolute;
+	right: 0.5rem;
+	top: 1.5rem;
+    margin-top: .5rem;
+}
+
+header > button > img {
+	color: #111;
+	width: 100%;
+}
+
+nav.toonMenu {
+    translate: 0% 0%;
+}
+
+/* Wanneer het scherm groter wordt, komt de nav naast elkaar */
+
+@media (min-width: 865px) {
+    nav {
+        position: static;
+        translate: none;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    /* Niet laten zien op groot scherm */
+
+    header > button, nav > button, nav p {
+        display: none;
+    }
+}
+
+@media (min-width: 865px) {
+    nav {
+        translate: 0 0;
+        transition: none;
+    }
+}
 
 @media (min-width: 865px) {
 
@@ -51,9 +167,7 @@ p {
     }
 }
 
-/* main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
+section p {
+	text-align: center;
+}
 
