@@ -5,24 +5,6 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
-
-
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -229,3 +211,10 @@ section:nth-of-type(6) p {
 	}
 }
 	
+@media (min-width: 865px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

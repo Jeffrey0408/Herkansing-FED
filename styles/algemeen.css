@@ -17,6 +17,16 @@
     src: url(/Fonts/oracle-book-medium\ \(1\).woff2);
 }
 
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
 header {
     background-color: white;
     width: 100%;
@@ -33,6 +43,19 @@ header a {
 
 header img{
     width: 10%;
+    height: auto;
+}
+
+header img:nth-of-type(1) {
+    margin-left: auto;
+    height: auto;
+    width: 3rem;
+}
+
+header img:nth-of-type(2) {
+    margin-left: 0.75rem;
+    margin-right: 4.5rem;
+    width: 3rem;
 }
     
 
@@ -61,11 +84,8 @@ nav {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	z-index: 2;
+    inset: 0;
+	z-index: 1000;
 	background-color: var(--color-background);
 	translate: 150% 0%;
 	transition:translate .3s;
@@ -74,11 +94,12 @@ nav {
 nav ul {
 	display: flex;
 	flex-direction: column;
+    list-style-type: none;
 }
 
 nav button {
 	position: absolute;
-	right: 0.5rem;
+	right: 1rem;
 	top: 1.5rem;
 	border-style: none;
 	width: 10%;
@@ -87,6 +108,10 @@ nav button {
 
 nav img {
 	width: 100%;
+}
+
+nav a {
+    white-space: nowrap;
 }
 
 /*nals menu open is */ 
@@ -113,7 +138,6 @@ header > button {
 	border-style: none;
 	position: absolute;
 	right: 0.5rem;
-	top: 1.5rem;
     margin-top: .5rem;
 }
 
@@ -152,17 +176,25 @@ nav.toonMenu {
 }
 
 @media (min-width: 865px) {
-    nav {
+
+    header { 
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem; 
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    header nav {
         translate: 0 0;
         transition: none;
+        order: 2
     }
-}
 
-@media (min-width: 865px) {
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    header img {
+        order: 3
     }
 }
 
