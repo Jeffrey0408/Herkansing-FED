@@ -256,8 +256,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. FED 25/26 - Flexbox - Oefening 4 - uitwerking. (z.d.-b). CodePen. https://codepen.io/shooft/live/QwjQGZe
+
+  2. grid voor ronan. (z.d.). CodePen. https://codepen.io/Ronan-Mustamu/pen/azdxebM?editors=1100
+
+  3. FED 25/26 - JS 3-stap  - Oefening 2 - responsive  2-buttons hamburger. (z.d.). CodePen. https://codepen.io/shooft/pen/myepoVo
+
+  4. Hogeschool van Amsterdam. (2025). FED Blok 1 – Oefening JS 3-stap – Hamburger menu [PDF]. https://dlo.mijnhva.nl/content/enforced/702741-FDMCI-CRS-00045462/FED%2025-26%20-%20Blok%201%20-%20Oefening%20JS%203-stap%20-%202%20Hamburger%20menu.pdf
+
+  5. Werk van vorig jaar, waarin ik heb gekeken hoe bepaalde elementen gestyled zijn
 
 </details>
