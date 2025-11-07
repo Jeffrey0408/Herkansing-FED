@@ -24,11 +24,20 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+
+    color-scheme:light dark;
+    
+    --bg-header:light-dark(white, purple);
+    --clr-header-a:light-dark(purple, white);
+
+
 }
 
 
 header {
     background-color: white;
+    background-color: var(--bg-header);
+    
     width: 100%;
     position: relative;
     left: 0;
@@ -38,6 +47,7 @@ header {
 
 header a {
     color: black;
+    color:var(--clr-header);
     text-decoration: none;
 }
 
@@ -122,7 +132,7 @@ nav.toonMenu {
 nav > ul > li > a {
 	display: block;
 	text-decoration: none;
-	color: #111;
+	/* color: #111; */
 	font-size: 20px;
 	margin: 0.5rem;
 }
@@ -152,7 +162,7 @@ nav.toonMenu {
 
 /* Wanneer het scherm groter wordt, komt de nav naast elkaar */
 
-@media (min-width: 865px) {
+@media (min-width: 1200px) {
     nav {
         position: static;
         translate: none;
@@ -175,7 +185,7 @@ nav.toonMenu {
     }
 }
 
-@media (min-width: 865px) {
+@media (min-width: 1200px) {
 
     header { 
         display: flex;

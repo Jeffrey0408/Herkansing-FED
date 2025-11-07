@@ -153,7 +153,12 @@ main > ul:nth-of-type(2) > li > a > ul {
     order: -1;
 }
 
-main ul:nth-of-type(2) li:nth-of-type(5) a h3, main ul:nth-of-type(2) li:nth-of-type(5) a p, main ul:nth-of-type(2) li:nth-of-type(18) a h3, main ul:nth-of-type(2) li:nth-of-type(18) a p {
+main ul:nth-of-type(2) li:nth-of-type(5) a h3, 
+main ul:nth-of-type(2) li:nth-of-type(5) a p, 
+main ul:nth-of-type(2) li:nth-of-type(18) a h3, 
+main ul:nth-of-type(2) li:nth-of-type(18) a p {
+
+    
     position: absolute;
     color: white;
     z-index: 2;
@@ -166,7 +171,7 @@ main ul:nth-of-type(2) li:nth-of-type(5) a h3, main ul:nth-of-type(2) li:nth-of-
 
 /* Groter maken van scherm */
 
-@media (width > 865px) {
+@media (width > 1200px) {
     main ul:nth-of-type(2) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
